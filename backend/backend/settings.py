@@ -121,7 +121,7 @@ DATABASES = {
 
         'USER':"meghazi",
 
-        'PASSWORD': 'SqlD4t4b4s300',
+        'PASSWORD': os.environ('sql'),
 
         'HOST': 'localhost',
 
